@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="projectphase2.css">
+  <title>Project 2</title>
+</head>
+<body>
+  <h1>Basic HTML and Internet Concepts</h1>
+  <h1 id="toc">Table of Contents</h1>
+  <div class="wholetoc">
+      <div class="toc">
+        <h5> Project Phase 1 </h5>
+          <ol class="toclist">
+            <li><a href="#lesson-1">Lesson 1</a>
+              <ul class="table">
+                <li><a href="#lesson-1-1">How the Internet works</a></li>
+                <li><a href="#lesson-1-2">HTML</a><li>
+                <li><a href="#lesson-1-3">TAGS</a><li>
+                <li><a href="#lesson-1-4">Computers are Stupid</a><li>
+              </ul>
+            <li><a href="#lesson-2">Lesson 2: Structure and Style</a></li>
+            <li><a href="#lesson-3">Lesson 3: CSS and Box Model</a></li>
+            <li><a href="#notes">Notes and References</a></li>
+          </ol>
+      </div>
+                <div class="toc">
+        <h5> Project Phase 2 </h5>
+          <ol class="toclist">
+            <li><a href="#phase2-1">Lesson 1: Serious Programing-Telling Computers what to do</a></li>
+            <li><a href="#phase2-2">Lesson 2: Variables and Strings</a></li>
+            <li><a href="#phase2-3-1">Lesson 3: Part 1-Input Function Input</a></li>
+            <li><a href="#phase2-3-2">Lesson 3: Part-2-Decisons and Repition</a></li>
+            <li><a href="#phase2-4">Lesson 4: Module Code</a></li>  
+          </ol>
+      </div>
+  </div>
+    <h3 id="lesson-1">Lesson 1</h3>
+        <div class="lessonbox">
+          <h2 id="lesson-1-1">How the Internet works</h2>
+            <ul class="notes">
+              <li>The internet is a collection of computers and 
+                servers that are connected to each other</li>
+              <li>The WEB is a collection of HTML pages</li>
+              <li>Web browser use HTML as there language to communicate</li>
+              <li>HTML allows computers to interpret web pages and display then so users can easily read them</li>
+              <li>So when users type <a href="https://www.google.com">www.google.com</a> into there web browser the browsers makes a request using HTML</li>
+            </ul>
+        <a Href="#toc">Return</a>
+        </div>
+          <div class="lessonbox"> 
+                <h2 id="lesson-1-2">HTML</h2>
+              <ul class="notes">
+                 <li>HTML is made up of the following:</li>
+                  <li>Text Content (The plain text you write you actually see)</li>
+                <li>Mark ups (What it looks like. <b>Tags</b> are used to display images and video's)</li>
+                <li>References to other Web sites</li>
+                  <li>Links to other pages</li>
+            </ul>
+                <h4>In-Line vs Block elements</h4>
+            <ul class="notes">
+                <li>Block elements form an invisible box around the elements, div tags are an example.</li>
+              <li>In-line applies to that spefic line of code.  Span tags are a good example. </li>
+              </ul>
+            <a Href="#toc">Return</a>
+          </div>
+        <div class="lessonbox">
+            <h2 id="lesson-1-3">TAGS</h2>
+            <ul Class="notes">
+               <li>HTML Mark-ups are made with <em>"tags"</em></li>
+              <li>Tags have <em>"Contents"</em> between them</li>
+              <li><em>Contents</em> are what the <b>computer</b> will display and 
+              <em>tags</em> are what tell the computer how to display them</li>
+              <li>Here is a link <a href="http://webdesign.about.com/od/beginninghtmlglossary/g/html_tag.htm">defining</a> tags</li>
+              <li>Tags are contained with in the angles brackets like this 
+                &lt;and&gt; </li>
+              <li>Tags must have openings &lt; and may have closing /&gt; but some are <em>void</em> and do not need a closing tag</li>
+            </ul>
+          <a Href="#toc">Return</a>
+        </div>
+          <div class="lessonbox">
+            <h2 id="lesson-1-4">Computers are Stupid</h2>
+            <ul class="notes">
+              <li>Computers are stupid.  They take everything in code literally. When using code you need to make sure you tell the computer exactly what to say for example:</li>
+            </ul>
+              <p class="indent">
+              -When you use some tags <b> You need to tell the computer when to STOP or else you will keep going like this</b> so I need to remember tags</p>
+            <ul class="notes">
+              <li> The most important thing:
+            </ul>
+              <p class="indent">-Programmers can't remember everything and there is a lot of information on the internet!</p>
+               <a Href="#toc">Return</a>
+          </div>
+    <div class="lessonbox">
+      <div class="standard">
+        <h2 id="lesson-2">Lesson 2: Structure and Style</h2>
+            <ul class="notes">
+              <li>HTML is what forms the structure of the page</li>
+              <li>CSS is what makes the style (How it looks)</li>
+              <li> DOM is a tree like structure that Programmers use to help set-up pages</li>
+              <li><B>Boxes Boxes Boxes</B> Programer visualize a web site as structured boxes</li>
+              <li>If I understand span tags <span style="color:blue">They cover everything in-line like this</span></li>
+              <li>If I understand div tags they will cover everything in a block or "box"</li> 
+              <li>The line in blue above was a span tag and the Red "box" is a div with in the yellow "Box"</li>
+            </ul>
+       <a Href="#toc">Return</a>
+      </div>
+    </div>
+    <div class ="lessonbox">
+      <div class="standard">
+        <h2 id="lesson-3">Lesson 3: CSS and Box Model</h2>
+           <ul class="notes">
+             <li>CSS: Cascading Style Sheets
+              <li>The box model will help set up the Margin, Border, Padding and Content</li>
+              <li>remember box sizing:border-box</li>
+              <li>Flex Box display: Flex;</li>
+              <li>Remember BOXES.  I found by playing around and breaking down boxes into boxes I got a better understanding of what to do.  Now I just need to get more familiar with css to manipulate the boxes!</li>
+              <li>Write-Test-Rewrite-Test never ends</li>
+              <li>Also forgetting things like ; and px, or using = instead of : can cause a lot of frustration</li>
+              <li>Using the correct <em>syntax</em> is important too!
+              <li> We learned about inherit text and the related properties.  I found when you forget to close a tag the sub elements will inherit those properties. For example: when I deleted my closing H1 tag the entire document aligned to the "center"</li>
+             <li>We learned about using "classes" to target specific elements of a doc
+              <li>"Classes" also help to avoid repetition and mistakes, and they help when editing is needed.  
+            </ul>
+      </div>
+      <a Href="#toc">Return</a>
+    </div>
+    <h2>Project Phase 2</h2>
+    <div class="lessonbox">
+      <h2 id="phase2-1">Lesson 1: Serious Programing- Telling Computers what to do</h2>
+      <ul class="notes">
+        <li>Programs tell computers what to do </li>
+        <li>Computer science is about how to solve problems and breaking those problems into smaller pieces; each of these pieces is then executed by the computer</li>
+        <li>A computer is a maching that can be porgrammed.  A computer program tells the computer how to do something in a very specific squence</li>
+        <li>Computers can do anything. If you can write a program a computer can do it.... and do it <em>SUPER FAST</em></li>
+        <li>Python is a programming language. Python Interpreter converts the code you wrote as a set of instructions and the computer follows those instructions</li>
+        <li>Python "<em>grammer</em>" is one way language is used to tell a computer what to do</li>
+        <li>Non-Terminal vs Terminal; Termninal means <em>end</em></li>
+        <li>Expression &#8594; expression operator expression</li>
+      </ul>
+      <a Href="#toc">Return</a>
+    </div>
+  <div class="lessonbox">
+      <h2 id="phase2-2">Lesson 2: Variables and Strings</h2>
+    <ul class="notes">
+      <li>A Variable is an assignment. We assign something with the = sign.  The = sign has a different meaning in programming.  my_variable = 5 is assigned the value 5 it does not equal 5.
+      <li>Variables are just that they can varry and assignments can be changed</li>
+      <li>Strings: A sequence of Characters surrounded by single or double quotes</li>
+      <li>Index strings can be used to subract text from a string example: 
+        &lt;string&gt; &#91; &lt;Expression&gt; &#93; &#8594;  'udacity'&#91;0&#93; &#8594; U</li>
+      <li>Selecting sub squences of string allows you to "pull out" a portion of the string. &lt;string&gt; &#91; &lt;Expression&gt;:&lt;Expression&gt; &#93; This will find a sequence of the sting starting at the first expression to the stop expression minus 1
+        'udacity'&#91;0:3&#93; &#8594; Uda</li>
+      <li>Finding strings with in a string. &lt;string&gt;.find &#40; &lt;string&gt; &#41; If the target string is not found the output will - 1.</li>
+      <li>''' Using 3 single or double quotes allows for multi-line code'''</li>
+    </ul>
+    <a Href="#toc">Return</a>
+  </div>
+  <div class="lessonbox">
+      <h2 id="phase2-3-1">Lesson 3: Input Function Output</h2>
+    <ul class="notes">
+      <li> Functions aka procedures tell the program what do do.  A function will take an input perform the function that is desired and output the result</li>
+      <li> Def is the define function/procedure</li>
+    </ul>
+      <div class="function"> def rest_of_string &#40; s &#41; :<p class="indent"> return s &#91; 1: &#93;</p>
+        <p> print rest_of_string&#40; 'audacity' &#41;</p>
+        <p> Output &#8594; udacity</p> 
+      </div>
+    <ul class="notes">
+      <li>def rest_of_string defines the function and the print rest_of_string performs the actual function</li>
+      <li>Return and the : are important! You will get an error or a result of "none" if you are missing one or both
+    </ul>
+     <a Href="#toc">Return</a>
+  </div>
+  <div class="lessonbox">
+      <h2 id="phase2-3-2">Lesson 3: Decisions and Repitition</h2>
+    <ul class="notes">
+      <li>&lt;Number&gt;&lt;operator&gt;&lt;Number&gt; &#8594; True or False</li>
+      <li>Example: print 7*3 == 21 &#8594;True</li>
+      <li>This introduces us to If and While statements</li>
+      <li>If statements are dependant of the value of the statement and will return based on that value.  If no value is achieved it will &#8594; None.  For example:</li>
+    </ul>
+      <div class='function'>
+        <p> multi_math&#40;a,b&#41;:</p>
+        <p class='indent'>if a*b ==21</p>
+        <p class='indent'>return 'hurray'</p>
+      </div>
+    <ul class="notes">
+      <li>This will result in "hurray" if a*b = 21 and None if they do not</li>
+      <li>"While" is used in "loops".  A while expression will continue through a loop as long as the expression is true.  Once it is false it will go the next expressoin. For Example:</li>
+      </ul>
+     <div class='function'>
+        <p>i=0</p>
+        <p class='indent'>while i&lt;10:</p>
+        <p class='indent'>print i</p>
+        <p class='indent'>i=i+1</p>
+     </div>
+    <ul class="notes">
+      <li>This loop will conintue to print 1,2,3...9 at 10 the loop becomes False and the loop will stop</li>
+    </ul>
+    
+     <a Href="#toc">Return</a>
+    </div>
+     <div class="lessonbox">
+      <h2 id="phase2-4">Lesson 4: Modular Code</h2>
+       <ul class="notes"> 
+         <li>Modular code is used to sperate the data from its visual presentation.  This allows you to change the data or presentation seperatly with out affecting the other. The allows you you to keep your notes &#40; data &#41; in one place and the structure &#40; HTML &#41; and visual &#40; CSS &#41; some where else.</li>
+         <li> Module code introduces us to "systems" thinking and outlines a 5 step process:
+        </ul>   
+       
+            <ol class="numbers">
+              <li>Undertand the requirments of the problems</li>
+              <li>Plan an approach to solve the problem</li>
+              <li>Re-Familiarize yourself with codes already written</li>
+              <li>Write new code</li>
+              <li>Put it all together</li>
+           </ol>
+         <ul class="notes">
+        <li>Modular code brakes a single long string of text and outputs HTML</li>
+        <li>To do this we need to</li>
+       </ul> 
+        
+            <ol class="numbers">
+              <li>Break the task into smaller pieces</li>
+              <li>use functions already established</li>
+              <li>write new functions</li>
+              <li>put it all together</li>
+             </ol>
+        <ul class="notes">
+          <li>Structured Data: Lists and "For" Loops</li>
+          <li>Structured data can be broken into strings: which is any sequence of characters. Or, Lists: which is a squences of anything; characters, strings, or other lists</li>
+          <li>Mutations: Change the value of a list after you create a list</li>
+          <li>Alias: Assignes a variable to the same name or object.  So a string can get a new assignment</li>
+         <li>alias = &#91;'another', 'name'&#93;</li>
+         <li>double = alias</li>
+          <li>First we assign the variable 'alias' then we give it an alias of 'double'</li>
+          <li>&lt;List&gt;.apend&#40;&lt;element&gt;&#41; will mutate a list.  It can be used to add another element to an existing list</li>
+          <li>stooges = &#91;'Moe', 'Larry', 'Curly'&#93;</li>
+          <li>stooges.apend&#40;'shemp'&#41;&#8594;&#91;'Moe', 'Larry', 'Curly', 'shemp'&#93;</li>
+          <li>len&#40; &lt;list&gt; &#41; &#8594; = The length of the elements in the the list</li>
+          <li>len&#40;stooges&#41; &#8594; 4</li>
+          <li>Combining while loop with len &#40;some_list&#41; &#8594; Results in output of each element</li>
+       </ul>
+          <div class='function'>
+            <p> i=0</p>
+            <p class='indent'>while i &lt; len &#40;stooges&#41;:</p>
+            <p class='indent'>print stooges &#91;i&#93;</p>
+            <p class='indent'>i=i+1</p>
+            <p class='indent'>Moe</p>
+            <p class='indent'>Larry</p> 
+            <p class='indent'>Curly</p>
+          </div>
+         <ul class="notes">
+          <li>An easier way to loop through a list is using the "for" loop</li>
+          <li>for &lt;name&gt; in &lt;list&gt;:</li>
+         </ul>
+           <p class='indent'>&lt;Block&gt;</p>
+          <div class='function'>
+            <p class='indent'>def print_all_elements(p):</p>
+            <p class='indent'>i=0</p>
+            <p class='indent'>for e in p:</p>
+            <p class='indent'>print p&#91;i&#93;</p>
+            <p>print print_all_elements(stooges):</p>
+            <p>Moe</p>
+            <p>Larry</p> 
+            <p>Curly</p>
+            <p>None</p>
+      </div>
+      <ul class="notes">
+       <li>We use the index method to find find the position of an element in a list.</li>
+       <li>&lt;list&gt;.index&#40;&lt;value&gt;&#41;</li>
+       <li>stooges.list&#40;Larry&#41; &#8594; 1
+       </ul>
+      <a Href="#toc">Return</a> 
+      </div>
+  <h3 id="notes">NOTES:</h3>
+  <div class="end">
+    <ul class="table">
+	    <li><a href=http://www.w3schools.com/tags/tag_img.asp>www.w3school.com</a> is a good tool to reference many tags</li>
+	     <li><a href=https://css-tricks.com>www.css-tricks.com</a> is a good site to research css codes</li>
+     </ul>
+    <a Href="#toc">Return</a>
+  </div>
+    <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+        </a>
+    </p>      
+</body>

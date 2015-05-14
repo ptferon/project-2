@@ -1,0 +1,55 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+h1 {color:Black; text-align: center; background-color:white} 
+h2 {background-color:gray; text-align:center;border-radius: 15px;}
+h3 {color:Black; text-align: center; background-color:gray; font-size: 15px;border-radius: 15px;}
+h4 {text-indent: 50px; font-size: 15px}
+h5 {color:Black; text-align: center; background-color:white;
+ font-size: 15px;border-radius: 15px; }
+.toclist {text-align: left; font-size: 15px; margin: 10px; width: 250px;}
+.wholetoc {display: flex;}
+.toc {
+ background-color: yellow;
+border-radius: 15px;  
+padding: 10px;
+border: 0px;
+margin: 20px;
+}
+.table {list-style-type: none;}
+
+.notes {list-style-type: square;
+font-size: 15px;
+padding: 10px;
+border: 10px;
+margin: 20px;}
+.numbers {font-size: 12px;
+padding: 5px;
+border: 10px;
+margin: 30px;}
+.important {list-style-type:square}
+
+p.indent{text-indent: 50px;font-size: 12px;}
+
+.lessonbox {background-color: yellow;
+border-radius: 15px;  
+padding: 10px;
+border: 10px;
+margin: 20px}
+
+.function { background-color: grey;
+width: 250px;
+border-radius: 15px;  
+padding: 5px;
+border: 0px;
+margin: 0px;
+font-size: 12px;}
+
+.standard {background-color:Red;
+border-radius: 15px;} 
+/* This shows the box with in a box. This is making the red box with in the yellow lessonbox */
+
+.end {font-size:15px;}
